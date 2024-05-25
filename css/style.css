@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff0078;
+  background: #109350;
   border-radius: 10px;
 }
 
@@ -31,11 +31,11 @@
 }
 
 ::-moz-selection {
-  background: #180000;
+  background:#109350;
 }
 
 ::selection {
-  background: #180000;
+  background:#109350;
 }
 
 html {
@@ -44,7 +44,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background: #23272a;
+  background: url("../img/lightcoloredwood.avif");
 }
 
 body,
@@ -83,7 +83,7 @@ section:nth-child(odd) {
   margin-bottom: 5px;
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
-  color: #ff0078;
+  color: #109350;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -99,7 +99,7 @@ section:nth-child(odd) {
   width: 60px;
   margin: 10px auto;
   height: 5px;
-  background: #ff0078;
+  background: #109350;
   border-radius: 10px;
 }
 
@@ -127,7 +127,7 @@ section:nth-child(odd) {
   bottom: 0;
   right: 0;
   margin: 10px;
-  background: #ff0078;
+  background: #109350;
   color: white;
   padding: 5px 10px;
   border-radius: 2px;
@@ -139,7 +139,7 @@ section:nth-child(odd) {
 }
 
 .top:hover {
-  background: #23272a;
+  background: #109350;
 }
 
 .floatingShareButtons {
@@ -272,7 +272,7 @@ nav {
 
 nav .nav_title {
   font-family: "Redressed", cursive;
-  color: #ff0078;
+  color: #084f0b;
   text-shadow: 1px 2px 5px black;
 }
 
@@ -304,7 +304,7 @@ nav .nav_links li a {
 }
 
 nav .nav_links li a:hover {
-  color: #ff0078;
+  color: #084f0b;
 }
 
 nav .bars {
@@ -330,6 +330,7 @@ header {
   background: #23272a;
   position: relative;
   border-bottom: 1px solid black;
+  z-index: 1;
 }
 
 header .HeaderContentWrapper {
@@ -353,7 +354,7 @@ header .HeaderContentWrapper .HeaderDesc {
 
 header .HeaderContentWrapper .HeaderDesc h1 {
   font-size: 2.5rem;
-  color: #ff0078;
+  color: #109350;
   font-family: "Dancing Script", cursive;
   letter-spacing: 5px;
   text-shadow: 1px 2px 1px black;
@@ -371,8 +372,8 @@ header .HeaderContentWrapper .HeaderDesc a {
   margin-top: 10px;
   padding: 5px 20px;
   text-decoration: none;
-  color: #ff0078;
-  border: 2px solid #ff0078;
+  color: #109350;
+  border: 2px solid #109350;
   font-size: 1.3rem;
   border-radius: 5px;
   position: relative;
@@ -389,7 +390,7 @@ header .HeaderContentWrapper .HeaderDesc a::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ff0078;
+  background: #084f0b ;
   z-index: -1;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -451,6 +452,7 @@ header .HeaderContentWrapper .header_waves {
 
 header .HeaderContentWrapper .header_waves img {
   width: 100%;
+  height: 50%;
 }
 
 #About {
@@ -489,7 +491,7 @@ header .HeaderContentWrapper .header_waves img {
   width: 100%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  border: 2px solid #ff0078;
+  border: 2px solid #109350;
   -webkit-box-shadow: 1px 10px 10px black;
           box-shadow: 1px 10px 10px black;
   -webkit-transition: 0.5s;
@@ -502,13 +504,14 @@ header .HeaderContentWrapper .header_waves img {
 
 #About .AboutContentWrapper .aboutDesc {
   width: 650px;
+  z-index: 99;
 }
 
 #About .AboutContentWrapper .aboutDesc h2 {
   font-family: "Kurale", serif;
   font-size: 2rem;
   color: #fff;
-  text-shadow: 1px 1px 1px #ff0078;
+  text-shadow: 1px 1px 1px #88AC64;
 }
 
 #About .AboutContentWrapper .aboutDesc p {
@@ -522,7 +525,7 @@ header .HeaderContentWrapper .header_waves img {
 }
 
 #About .AboutContentWrapper .aboutDesc p span {
-  color: #ff0078;
+  color: #109350;
 }
 
 #recent_works {
@@ -577,7 +580,7 @@ header .HeaderContentWrapper .header_waves img {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  background: #ff0077e8;
+  background: #084f0b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,7 +804,7 @@ header .HeaderContentWrapper .header_waves img {
   border-radius: 5px;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  border: 3px solid #ff0078;
+  border: 3px solid #084f0b;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -814,7 +817,7 @@ header .HeaderContentWrapper .header_waves img {
 #reviews .reviewContentWrapper .singleReview .desc h2 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 5px;
-  color: #ff0078;
+  color: #109350;
 }
 
 #reviews .reviewContentWrapper .singleReview .desc p {
@@ -863,7 +866,7 @@ header .HeaderContentWrapper .header_waves img {
 
 #Slider .swiper-slide .sliderDesc h2 {
   font-size: 2rem;
-  color: #ff7300;
+  color: #0088ff;
   text-shadow: 1px 2px 5px black;
   font-family: "Kurale", serif;
 }
