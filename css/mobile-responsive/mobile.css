@@ -64,6 +64,11 @@
   header .HeaderContentWrapper .HeaderImg {
     display: none;
   }
+  header .HeaderContentWrapper .header_waves{
+    height: 200%;
+
+  }
+
   #About .AboutContentWrapper .aboutImg {
     width: 90%;
     margin: 15px auto;

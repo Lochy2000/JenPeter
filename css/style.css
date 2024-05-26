@@ -534,7 +534,7 @@ header .HeaderContentWrapper .header_waves img {
 }
 
 #About .AboutContentWrapper .aboutDesc p span {
-  color: #109350;
+  color: #10934f55;
 }
 
 #recent_works {
@@ -567,7 +567,7 @@ header .HeaderContentWrapper .header_waves img {
 }
 
 #recent_works .recent_works_content_Wrapper .singleWork:hover .projectDesc {
-  opacity: 3;
+  opacity: 4;
 }
 
 #recent_works .recent_works_content_Wrapper .singleWork:hover img {
@@ -590,7 +590,7 @@ header .HeaderContentWrapper .header_waves img {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  background: #084f0b;
+  background: #084f0c62;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
