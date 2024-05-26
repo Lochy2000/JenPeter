@@ -33,7 +33,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: #23272a;
+    background: url("/img/phonenav.avif");
     -webkit-transform: translate(100%);
             transform: translate(100%);
     -webkit-transition: 0.5s;

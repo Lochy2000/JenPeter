@@ -261,7 +261,7 @@ nav {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #23272a;
+  background: #30211a8a ;
   padding: 10px 0px;
   position: fixed;
   top: 0;
@@ -461,7 +461,7 @@ header .HeaderContentWrapper .header_waves img {
   background-size: cover;
   background-attachment: fixed;
   background-position: left;
-  background: url(../img/about_bg.jpg);
+  background: url(../img/woodentrunk.avif) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -485,6 +485,7 @@ header .HeaderContentWrapper .header_waves img {
 #About .AboutContentWrapper .aboutImg {
   width: 250px;
   position: relative;
+  z-index: 99;
 }
 
 #About .AboutContentWrapper .aboutImg img {
@@ -756,6 +757,9 @@ header .HeaderContentWrapper .header_waves img {
 
 #reviews {
   padding: 50px 0px;
+  background: url("../img/darkwoodenpattern.avif") no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
 }
 
 #reviews .reviewContentWrapper {
