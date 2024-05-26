@@ -414,6 +414,7 @@ header .HeaderContentWrapper .HeaderDesc a:hover {
 
 header .HeaderContentWrapper .HeaderImg {
   width: 450px;
+  padding-left: 2rem;
   z-index: 1;
 }
 
@@ -880,7 +881,7 @@ header .HeaderContentWrapper .header_waves img {
 
 #Slider .swiper-slide .sliderDesc h2 {
   font-size: 2rem;
-  color: #0088ff;
+  color: #5F7745;
   text-shadow: 1px 2px 5px black;
   font-family: "Kurale", serif;
 }
@@ -1011,7 +1012,7 @@ header .HeaderContentWrapper .header_waves img {
 }
 
 #bottom__Footer {
-  padding: 50px 0px;
+  padding: 0px 0px;
   background: -webkit-gradient(linear, left top, left bottom, from(#0000007a), to(#00000085)), url(../img/footer.jpg);
   background: linear-gradient(#0000007a, #00000085), url(../img/footer.jpg);
   background-position: center;
