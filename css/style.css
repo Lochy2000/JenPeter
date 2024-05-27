@@ -772,6 +772,23 @@ header .HeaderContentWrapper .header_waves img {
   background-size: cover;
   background-attachment: fixed;
 }
+#reviews .section_title {
+  -webkit-box-shadow: 1px 2px 5px black;
+  box-shadow: 1px 2px 5px black;
+  border: none;
+  background: #826d5377;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+#reviews .section_title h2{
+  color: #0d8e14;
+}
+#reviews .section_title p{
+  color: #f3f3f3;
+}
 
 #reviews .reviewContentWrapper {
   display: -webkit-box;
