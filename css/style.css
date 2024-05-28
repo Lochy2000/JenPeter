@@ -102,7 +102,7 @@ section:nth-child(odd) {
   width: 60px;
   margin: 10px auto;
   height: 5px;
-  background: #109350;
+  background: #dd1608;
   border-radius: 10px;
 }
 
@@ -377,8 +377,8 @@ header .HeaderContentWrapper .HeaderDesc a {
   margin-top: 10px;
   padding: 5px 20px;
   text-decoration: none;
-  color: #109350;
-  border: 2px solid #109350;
+  color: #f80909;
+  border: 2px solid #f71d05;
   font-size: 1.3rem;
   border-radius: 5px;
   position: relative;
@@ -395,7 +395,7 @@ header .HeaderContentWrapper .HeaderDesc a::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #084f0b;
+  background: #f2f2f2;
   z-index: -1;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
@@ -409,7 +409,7 @@ header .HeaderContentWrapper .HeaderDesc a:hover:before {
 }
 
 header .HeaderContentWrapper .HeaderDesc a:hover {
-  color: white;
+  color: rgb(253, 15, 15);
 }
 
 header .HeaderContentWrapper .HeaderImg {
@@ -787,7 +787,7 @@ header .HeaderContentWrapper .header_waves img {
   -webkit-box-shadow: 1px 2px 5px black;
   box-shadow: 1px 2px 5px black;
   border: none;
-  background: #826d5377;
+  background: #826d539e;
   padding: 20px;
   border-radius: 5px;
   margin: 20px 5px;
@@ -860,7 +860,7 @@ header .HeaderContentWrapper .header_waves img {
 #reviews .reviewContentWrapper .singleReview .desc h2 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 5px;
-  color: #109350;
+  color: #183a29;
 }
 
 #reviews .reviewContentWrapper .singleReview .desc p {
