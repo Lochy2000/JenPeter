@@ -86,7 +86,7 @@ section:nth-child(odd) {
   margin-bottom: 5px;
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
-  color: #5F7745;
+  color: #959693;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -332,7 +332,7 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(180deg, #3E3431, #826D53);
+  background-image: linear-gradient(to bottom, #3E3431, #826D53, transparent);
   position: relative;
   border-bottom: 1px solid black;
   z-index: 1;
@@ -359,10 +359,10 @@ header .HeaderContentWrapper .HeaderDesc {
 
 header .HeaderContentWrapper .HeaderDesc h1 {
   font-size: 2.5rem;
-  color: #5F7745;
+  color: #d7d1c9;
   font-family: "Raleway", sans-serif;
   letter-spacing: 5px;
-  text-shadow: 1px 2px 1px black;
+  text-shadow: 1px 2px 1px rgb(99, 74, 21);
 }
 
 header .HeaderContentWrapper .HeaderDesc p {
@@ -542,16 +542,14 @@ header .HeaderContentWrapper .header_waves img {
   background-image: linear-gradient(180deg, #3E3431, #826D53);
 }
 #recent_works .section_title {
-  width: 250px;
+  width: 300px;
   height: 150px;
-  -webkit-box-shadow: 1px 2px 5px black;
-  box-shadow: 1px 2px 5px black;
+
   border: none;
   background: url(../img/danishdesign.jpg)no-repeat center;
   padding: 20px;
-  padding-bottom: 2rem;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+
+
   margin: 0 auto;
 }
 
@@ -797,7 +795,7 @@ header .HeaderContentWrapper .header_waves img {
   transition: 0.2s;
 }
 #reviews .section_title h2{
-  color: #0d8e14;
+  color: #f3f3f3;
 }
 #reviews .section_title p{
   color: #f3f3f3;
